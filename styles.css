@@ -1,0 +1,113 @@
+*{
+    background-color: #302E2B;
+}
+
+#board{
+    display: grid;
+    grid-template-rows: repeat(8,80px);
+    /* flex-direction: column; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.rowDiv{
+    height:80px;
+    width : 640px;
+    background-color: rgba(46, 44, 44, 0.133);
+    display: grid;
+    grid-template-columns: repeat(8,80px);
+    align-items: center;
+    align-content: center;
+}
+
+.square{
+    display : flex;
+    width : 80px;
+    height : 80px;
+}
+
+.black{
+    background-color: #779556;
+}
+
+.white{
+    background-color: #EBECD0;
+}
+
+.piece{
+    cursor: grab;
+}
+
+.highlight{
+    height: 40px;
+    width : 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin : 20px;
+}
+
+.bullet{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin : 25px;
+}
+
+ /* review this  */
+#dashboard{
+   text-align: center;
+   align-content: center;
+   align-items: center;
+   position: relative;
+   margin-block:10px;
+
+}
+
+.buttons{
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    margin: 10px;
+    border: 2px none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.612);
+}
+
+.restart{
+    margin-left : 70px;
+}
+/* upto here */
+
+#timer{
+    height: 50px;
+    width: 20vw;
+    margin-inline : 40vw;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgba(196, 212, 255, 0.103);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.countdown{
+    display: inline-block;
+    height: 40px;
+    width: 20px;
+    border : 2px solid black;
+    border-radius : 15%;
+    background-color: rgba(196, 212, 255, 0.395);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#turndisplay{
+    text-align: center;
+}
+
+
+
+

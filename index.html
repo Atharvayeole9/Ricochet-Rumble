@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricochet Rumble Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="game">
+        <div id="board"></div>
+        <div id="dashboard">
+            <div id="turndisplay">
+                <span style="color: whitesmoke; font-size: 18px;">TURN: </span>
+                <span id="turn" style="color: red; font-size: 18px;">RED</span>
+            </div>
+            <div id="timer">
+                <span class="countdown">0</span>
+                <span class="countdown">0</span>
+                <span>:</span>
+                <span class="countdown" id="tens">3</span>
+                <span class="countdown" id="units">0</span>
+            </div>
+                <span>
+                    <button class="buttons" id="restart">restart</button>
+                    <button class="buttons" id="pause-play">pause</button>
+                </span>
+        </div>
+    </div>
+    <script type="module" src="index.mjs"></script>
+</body>
+
+</html>
